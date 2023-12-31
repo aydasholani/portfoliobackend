@@ -1,0 +1,47 @@
+{
+  "name": "portfoliobackend",
+  "version": "1.0.0",
+  "description": "Backend for my portfolio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node v1/server.js",
+    "dev": "nodemon v1/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "env": "cp .env.example .env"
+  },
+  "keywords": [
+    "expressjs",
+    "login",
+    "logout",
+    "nodejs",
+    "javascript."
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aydasholani/portfoliobackend.git"
+  },
+  "author": "Ayda Sholani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aydasholani/portfoliobackend/issues"
+  },
+  "homepage": "https://github.com/aydasholani/portfoliobackend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "type": "module"
+}
